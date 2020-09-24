@@ -1,0 +1,31 @@
+freeze@ubuntu:~/Desktop$ sh first.sh
+Today's date : Thu 24 Sep 2020 01:58:25 AM PDT
+My Shell: /bin/bash
+This Month's Calendar:   September 2020     
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30           
+                      
+Today's Date: 24092020
+
+
+
+freeze@ubuntu:~/Desktop$ sh areacal.sh
+Enter the radius
+10
+314.1500
+
+
+
+freeze@ubuntu:~/Desktop$ sh calcu.sh
+Enter first value:
+28
+Enter second value:
+14
+Sum is 42
+Product is 392
+Quotient is 2
+Remainder is 0
