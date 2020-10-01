@@ -1,0 +1,48 @@
+freeze@ubuntu:~/Desktop$ sh rfile.sh
+Enter the file name:flnam 
+The attributes of flnam are:
+-rw-rw-r-- 1 freeze freeze 73 Oct  1 01:48 flnam
+
+The contents of flnam are:
+Operating System
+DBMS
+Competitive Coding
+Some good project
+Algo and DS 
+
+The word count is:
+73 flnam
+
+
+
+freeze@ubuntu:~/Desktop$ sh flcopy.sh
+Enter the file name:flnam
+Enter file u want to copy contents :demofile
+Contents in new file
+Operating System
+DBMS
+Competitive Coding
+Some good project
+Algo and DS 
+
+Enter new name for the file : ------------------------------
+demfil 
+-rw-rw-r-- 1 freeze freeze 73 Oct  1 02:35 demfil
+
+
+
+freeze@ubuntu:~/Desktop$ sh exprr.sh
+Enter number 1
+35
+Enter number 2
+20
+Addition : 
+55
+Subtraction : 
+15
+Multiplication : 
+700
+Division : 
+1
+Modulo : 
+15
