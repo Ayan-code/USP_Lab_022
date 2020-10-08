@@ -1,0 +1,39 @@
+Program 1 output....
+
+freeze@ubuntu:~/Desktop$ gedit num.sh
+
+freeze@ubuntu:~/Desktop$ sh num.sh
+Enter a number
+-8
+Number is negative.
+freeze@ubuntu:~/Desktop$ sh num.sh
+Enter a number
+4
+Number is positive.
+
+
+Program 2 output....
+
+freeze@ubuntu:~/Desktop$ sh filearg.sh num.sh bignum.sh
+The number of arguments are 2
+Argument 1 is a File
+Arguments of file 1
+-rw-rw-r-- 1 freeze freeze 176 Oct  8 01:50 num.sh
+Argument 2 is a File
+Arguments of file 2
+-rw-rw-r-- 1 freeze freeze 176 Oct  8 01:50 num.sh
+
+
+
+Program 3 output....
+
+freeze@ubuntu:~/Desktop$ gedit bignum.sh
+
+freeze@ubuntu:~/Desktop$ sh bignum.sh
+Enter 3 numbers
+5 9 2
+Greatest number is 9
+
+
+
+
